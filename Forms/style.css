@@ -1,0 +1,13 @@
+.form-container {
+    width: 25%;
+    margin: auto;
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+.figure {
+    margin: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
