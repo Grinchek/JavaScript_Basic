@@ -1,0 +1,80 @@
+#wraper {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: #f7f1f1;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 4px 2px 4px 4px #888;
+}
+
+#input {
+    text-align: center;
+    margin: auto;
+    margin-top: 7px;
+}
+
+#search {
+    text-align: center;
+}
+
+#title-wraper {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid gray;
+    margin-left: 2.5%;
+
+}
+
+.search-login {
+
+    text-align: start;
+    margin: 2%;
+    width: 100%;
+    border-bottom: 0.5px solid gray;
+
+}
+
+.search-login2 {
+
+    text-align: start;
+    margin: 2%;
+    width: 100%;
+
+}
+
+#search-login {}
+
+.title {}
+
+
+.info-waper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-login {}
+
+
+
+.info-container {
+    text-align: start;
+    margin: 2%;
+    width: 100%;
+}
+
+#image-box {}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 0.5px solid gray;
+
+}
+
+.content {
+    font-weight: normal;
+}
