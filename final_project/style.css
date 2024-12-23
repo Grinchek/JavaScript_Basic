@@ -1,0 +1,56 @@
+.wraper {
+    width: 85%;
+    margin: auto;
+    background-color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(16, 184, 184);
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+}
+
+.swicher {
+    background-color: darkslategrey;
+    margin-bottom: 2.5%;
+}
+
+.title {
+    margin-top: 1%;
+    margin-left: 2.5%;
+}
+
+.card {
+    color: gray;
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2.5%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.lightTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oneOfFive {
+    display: block;
+    align-items: center;
+}

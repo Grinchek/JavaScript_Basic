@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/final_project/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="header" id="header">
+            <p class="title">MY WEATHER</p>
+            <div class="input">
+                <input id="searchField" type="search">
+                <button class="button-dark" onclick="searchOnclickHendler()">Search</button>
+            </div>
+        </div>
+        <div class="swicher">
+            <button type="button" class="btn btn-dark" style="margin-left: 2.5%;"
+                onclick="todayHandler()">Today</button>
+            <button type="button" class="btn btn-dark" onclick="fiveDayHandler()">5-days forecast</button>
+        </div>
+        <div class="card" id="current">
+
+        </div>
+        <div>
+            <div class="content" id="fiveDay">
+
+            </div>
+        </div>
+        <div class="card" id="hourly">
+
+
+        </div>
+        <div class="card" id="errorPage" style="text-align: center;">
+
+        </div>
+    </div>
+
+
+    <script src="/final_project/main.js"></script>
+</body>
+
+</html>
